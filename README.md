@@ -13,3 +13,5 @@ Uses 2 temperature sensors as an input. Depending on the difference between them
 POT can also be used to control fan speed.
 
 SW: Uses Wire and SHTC3 libraries for temp sensor. Uses SSD1306Ascii library instead of Adafruit library due to space constraints.
+
+Uses Code borrowed from Matt Clarke (Matchstic) for PWM.
