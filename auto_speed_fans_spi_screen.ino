@@ -168,6 +168,7 @@ void loop() {
   oled.print("TS1: ");
   oled.println(t1f);
   oled.print("Delta: ");
+  if(delta < 10) oled.print(" ");
   oled.println(delta);
   oled.print("DC:  ");
   oled.print(duty);
